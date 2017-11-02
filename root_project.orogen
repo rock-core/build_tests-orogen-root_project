@@ -1,0 +1,7 @@
+name "root_project"
+
+import_types_from 'root_projectTypes.hpp'
+
+task_context "Task" do
+    output_port 'test', '/root_project/LocalType'
+end
